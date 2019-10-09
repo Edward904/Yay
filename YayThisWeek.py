@@ -47,3 +47,9 @@ print(b)
 print(c)
 print(d)
 # Yay we created a poem using strings
+
+# We can also make it ask us questions
+age = input("How tall are you?")
+height = input("How tall are you?")
+
+print("So, you are %r old and %r tall." % (age, height))
